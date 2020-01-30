@@ -1,0 +1,9 @@
+/* Style the header with a grey background and some padding */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  padding: 20px 20px;
+  background-color: #ddd;
+}

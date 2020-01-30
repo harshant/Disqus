@@ -1,0 +1,147 @@
+body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #7f53ac 0, #657ced 100%);
+  color: black;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-family: Fira Sans;
+  align-items: center;
+}
+
+.main_area {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 1000px;
+}
+
+.threads {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  background-color: #ddd;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 0.5rem;
+}
+
+.thread {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-top: 10px;
+}
+
+.image {
+  padding: 10px;
+  padding-top: 0px;
+  margin-right: 10px;
+  padding-left: 0px;
+  border-right: 2px solid hsl(240, 25%, 64%);
+}
+
+.votes {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.name_time {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  margin: 2px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.time {
+  margin-left: 10;
+  font-size: 14px;
+}
+
+.main_comment {
+  margin-top: 10px;
+}
+
+.reply {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.comments {
+  margin-top: 10px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 5px;
+}
+
+.credentials {
+  background-color: rgb(229, 230, 231);
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
+.input {
+  border: 2px solid #8b8b8b;
+  border-radius: 4px;
+  height: 30px;
+  width: 98%;
+  text-align: start;
+}
+
+.input_name {
+  margin: 10px;
+  margin-left: 0px;
+  font-family: Fira Sans;
+}
+
+.button {
+  background-color: #8a79d8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+
+.pg_btn {
+  background-color: #ddd;
+  border-radius: 0.5rem;
+}
+
+.user_image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
