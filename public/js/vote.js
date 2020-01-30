@@ -1,4 +1,5 @@
 //function to upvote or downvote a comment
+
 vote = async (comment_id, value) => {
   fetch("http://localhost:4000/vote/", {
     method: "POST",

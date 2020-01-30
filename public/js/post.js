@@ -1,4 +1,5 @@
 //function to create post(comment)
+
 post = () => {
   fetch("http://localhost:4000/post/", {
     method: "POST",
@@ -62,12 +63,4 @@ post_reply = () => {
       x.className = "show";
       setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
     });
-}
-
-//function to display model
-reply_box = (comment_id) => {
-  //storing the comment_id of reply
-  localStorage.setItem("reply_on", comment_id);
-  //show modal
-  document.querySelector(".modal").classList.toggle("show-modal")
 }

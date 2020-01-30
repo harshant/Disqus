@@ -58,8 +58,10 @@ function disqus() {
       let json = await response.json();
 
       if (json.data) {
+
         let Reply = document.getElementById(`comment${comment_id}`);
         Reply.innerHTML = "";
+
         for (let i = 0; i < json.data.length; i++) {
           Reply.innerHTML += `
             <div class="thread">

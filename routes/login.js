@@ -9,7 +9,7 @@ router.post('/', function (req, res) {
 
   /**
   *If user name is present in record assign a JWT
-  *Else if the user in new user, create a user record
+  *Else if the user is new user, create a user record
   *and then assing a JWT
   */
 

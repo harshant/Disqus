@@ -9,7 +9,7 @@ router.post('/', function (req, res) {
   let vote = req.body.vote;
   let jwt_token = req.header('Authorization');
 
-  // Checking if user exist in users table
+  // assigning a vote i.e +1 or -1 to comment 
   fetch(api_endpoint, {
     method: 'POST',
     headers: {
@@ -33,6 +33,7 @@ router.post('/', function (req, res) {
   })
     .then(response => response.json())
     .then(json => {
+
       if (json.data) {
         res.json({ "success": true })
       } else {

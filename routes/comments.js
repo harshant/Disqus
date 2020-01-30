@@ -8,6 +8,7 @@ router.post('/', function (req, res) {
 
   let offset = req.body.offset;
 
+  //Querying the comment with it's user and vote aggregation
   fetch(api_endpoint, {
     method: 'POST',
     headers: {
@@ -61,6 +62,7 @@ router.post('/replys', function (req, res) {
 
   let comment_id = req.body.comment_id;
 
+  //Querying the reply on cooment with it's user and vote aggregation
   fetch(api_endpoint, {
     method: 'POST',
     headers: {

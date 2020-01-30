@@ -8,7 +8,7 @@ router.post('/', function (req, res) {
   let post = req.body.post;
   let jwt_token = req.header('Authorization');
 
-  // Cheating post(comment) on behalf of the user
+  // Creating post(comment) on behalf of the user
   fetch(api_endpoint, {
     method: 'POST',
     headers: {
@@ -55,7 +55,7 @@ router.post('/reply', function (req, res) {
   let reply_on = req.body.reply_on;
   let jwt_token = req.header('Authorization');
 
-  // Cheating post(comment) on behalf of the user
+  // making reply on comment with id reply_on
   fetch(api_endpoint, {
     method: 'POST',
     headers: {
