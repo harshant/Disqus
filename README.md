@@ -21,4 +21,13 @@ download the migrations folder from https://drive.google.com/drive/folders/19HuI
 
 change the API_ENDPOINT in the .env file to : http://localhost:8080/v1/graphql
 
+DB model
+
+<img src="https://i.ibb.co/cwgmG1z/votercircle.png" alt="db-model" border="0"></a>
+
+
+Note: .env file is included only for convenience
+
+
+
 
