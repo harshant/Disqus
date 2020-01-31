@@ -1,5 +1,5 @@
 # Disqus
-Reddit clone
+Reddit clone, using only plane HTML, CSS and Javascript, i.e without any framework
 
 ### Installing Requirements
 > npm install --save
