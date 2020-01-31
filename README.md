@@ -6,6 +6,7 @@ Reddit clone
 
 ### Usage 
 > npm start 
+
 and then go to http://localhost:4000
 
 ### To replicate backend part
@@ -15,6 +16,7 @@ download the migrations folder from https://drive.google.com/drive/folders/19HuI
 
 ##### Run following commands
 => sudo docker-compose up -d
+
 => hasura migrate apply , ref: https://docs.hasura.io/1.0/graphql/manual/hasura-cli/hasura_migrate_apply.html
 
 change the API_ENDPOINT in the .env file to : http://localhost:8080/v1/graphql
